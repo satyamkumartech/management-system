@@ -14,15 +14,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="admin" target="17" />
-      <module name="identity" target="1.8" />
-      <module name="student" target="17" />
+      <module name="admin" target="11" />
+      <module name="identity" target="11" />
+      <module name="RoleBasedAuthorization" target="11" />
+      <module name="student" target="16" />
       <module name="subject" target="17" />
-      <module name="teacher" target="17" />
+      <module name="teacher" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RoleBasedAuthorization" options="-parameters" />
       <module name="admin" options="-parameters" />
       <module name="identity" options="-parameters" />
       <module name="student" options="-parameters" />
